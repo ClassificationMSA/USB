@@ -1,6 +1,4 @@
-# A Use-Case-and-Semantics-Based Approach to Identifying Microservices in Legacy Monolithic Web Applications
-
-## Overview 
+# A Use-Case-and-Semantics-Based Approach to Identifying Microservices in Legacy Monolithic Web Applications 
 
 ## Subject web applications 
 ### [JPetStore2](https://github.com/KimJongSung/jPetStore)

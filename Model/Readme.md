@@ -2,10 +2,7 @@
 
 The hybrid model is a normalized linear combination of the Behavioral model and the Semantic model.
 
-These weights are optimized for each web application to maximize the accuracy of microservice identification.
-
-The comparison for maximum accuracy is based on the median 
-accuracy obtained by conducting 30 microservice identification experiments for all possible weight combinations.
+The alpha (ес) values used for each web application in the hybrid model are as follows.
 
 ## Alpha Weights (Values applied to the Behavioral model)
 
