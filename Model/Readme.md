@@ -2,7 +2,7 @@
 
 The hybrid model is a normalized linear combination of the Behavioral model and the Semantic model.
 
-The weights for the linear combination are chosen to achieve the maximum accuracy in microservice identification results.  
+These weights are optimized for each web application to maximize the accuracy of microservice identification.
 
 The comparison for maximum accuracy is based on the median 
 accuracy obtained by conducting 30 microservice identification experiments for all possible weight combinations.
@@ -16,7 +16,3 @@ accuracy obtained by conducting 30 microservice identification experiments for a
 | PetClinic       | 0.35         |
 | ShoppingApp     | 0.5          |
 | DayTrader       | 0.2          |
-
----
-
-These weights are optimized for each web application to maximize the accuracy of microservice identification.
