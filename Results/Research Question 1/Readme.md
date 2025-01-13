@@ -12,10 +12,10 @@ For each semantic model, 31 microservice identifications are performed, and the 
 
 A linear combination of semantic and dynamic models is used.
 
-+ ### The method of how alpha (ес) values are extracted in the integrated model.
++ ### The method of how alpha (_a_) values are extracted in the integrated model.
 
-1) Adjusting the alpha (ес) values between 0 and 1, 31 results are generated for each alpha.
-2) The accuracy of a specific alpha (ес) value is the median of the results obtained from 31 iterations.
+1) Adjusting the alpha (_a_) values between 0 and 1, 31 results are generated for each alpha.
+2) The accuracy of a specific alpha (_a_) value is the median of the results obtained from 31 iterations.
 3) The alpha value with the highest accuracy among them was selected for use.
 
 
