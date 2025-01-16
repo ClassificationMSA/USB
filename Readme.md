@@ -93,7 +93,7 @@ This folder contains the models used in our approach for identifying microservic
 - ### Behavioral 
   The behavior model represents the execution status of components for each use case. The execution status is represented by a value of either 0 or 1.
 - ### Semantic 
-  This model is a collection of embedding results for each component, generated using Word2Vec based on their names.
+  The semantic model is a collection of vectors that represent the meanings of components. The proposed approach analyzes the semantics of each component using only its name.
 - ### Hybrid
   The Hybrid model, which combines the Behavioral model and the Semantic model, is the final model used in our approach.
 
