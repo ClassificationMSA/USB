@@ -7,8 +7,7 @@ It is a full web application in the form of a pet store, showcasing the structur
 
 ### [JPetStore6](https://github.com/mybatis/jpetstore-6)
 
-Another version of JPetStore built using MyBatis 3, Spring 5, and Stripes.
-
+JPetStore6 is another version of JPetStore2, built with MyBatis 3, Spring 5, and Stripes.
 
 ### [PetClinic](https://github.com/spring-projects/spring-petclinic)
 
@@ -20,7 +19,7 @@ ShoppingApp is a full web application built with Servlet and JSP, without using 
 
 ### [DayTrader](https://github.com/WASdev/sample.daytrader7)
 
-DayTrader 7 is a sample application for an online stock trading system based on Java EE 7. DayTrader leverages key Java EE 7 technologies, including JSP, Servlets, EJB, JPA, JDBC, JSF, CDI, Bean Validation, JSON, JMS
+DayTrader 7 is an online stock trading system based on Java EE 7, using JSF, EJB, and JDBC.
 
 ## Project structure 
 
@@ -77,7 +76,8 @@ To evaluate the proposed technique's performance, a ground truth for each subjec
 
 
 ### Baselines 
-This package includes the microservice identification results of the four baseline methods that were compared with our approach. Each method provides microservice identification results for all five open-source web applications.
+Our approach is compared with the following four baselines presented below. 
+This folder contains the identification results for each baseline.
 
 
   - ### **MEM** 
@@ -87,9 +87,6 @@ This package includes the microservice identification results of the four baseli
   - ### **[Bunch](https://github.com/ArchitectingSoftware/Bunch)** 
   - ### **[Mono2micro](https://github.com/rahlk/ASE21-Tutorial)** 
   - ### **Study [2]** 
-     
-
-
 
 ### Model 
 This folder contains the models used in our approach for identifying microservices. Each model reflects specific information about the web application.
